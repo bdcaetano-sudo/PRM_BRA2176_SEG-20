@@ -5,7 +5,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 bot = commands.Bot(command_prefix='$', intents=intents)
-
+# atualização
 @bot.event
 async def on_ready():
     # Tell the type checker that User is filled up at this point
